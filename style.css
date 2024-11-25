@@ -1,0 +1,93 @@
+body {
+  font-family: "IM Fell English", serif;
+  margin: 50px 50px 0 50px;
+  background-color: #cbdcc8;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+.im-fell-english-regular {
+  font-family: "IM Fell English", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.agency {
+  color: rgb(17, 94, 17)
+}
+
+.card-title {
+  color: rgb(17, 94, 17);
+  font-size: 30px
+}
+
+.agency {
+  font-size: 90px;
+}
+
+@media (min-width: 319px) and (max-width: 1200px) {
+  .agency {
+    font-size: 65px;
+    text-align: center;
+  }
+  .logo {
+    width: 100px ;
+  }
+ 
+  .card {
+    display: block !important;
+    margin-bottom: 30px !important;
+    width: 100% !important;
+    float: none !important; 
+  }
+
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    float: none
+
+}
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.tile-image { 
+  height:200px;
+  width: 300px;
+  float: left;
+  margin-right: 50px;
+}
+
+.tiles-image {
+  height: 200px;
+  width: 300px;
+  float: left;
+  margin-right: 50px;
+}
+
+footer {
+  text-align: right;
+  font-family: "IM Fell English", serif;
+  color:rgb(17, 94, 17);
+  margin-top: auto;
+
+}
+
+p {
+  font-size: 18px
+}
+
+.card {
+  width: 45%;
+}
+
